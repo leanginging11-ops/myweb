@@ -1,0 +1,1852 @@
+/**
+ * VictorThemes Styling
+*/
+@media screen and (max-width:1760px) {
+  /* Unva Home V2 Page CSS */
+  .services-style-two .service-info-wrap {
+    padding: 100px;
+  }
+  .service-item {
+    padding: 50px 30px;
+  }
+  /* Unva Services Page CSS */
+  .service-info-wrap {
+    padding: 100px 60px;
+  }
+  .service-info-wrap .section-title-wrap h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width:1499px) {
+  /* Unva Home V2 Page CSS */
+  .services-style-two .service-info-wrap {
+    padding: 50px;
+  }
+}
+@media screen and (max-width:1390px) {
+  /* Unva Home V1 Page */
+  .skills-info {
+    padding: 100px;
+  }
+  /* Unva Home V2 Page */
+  .services-style-two .service-info-wrap {
+    padding: 100px 60px;
+  }
+  /* Unva Home V3 Page */
+  .unva-masonry[data-items="5"] .masonry-item {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width:1340px) {
+  /* Unva Home V1 Page */
+  .unva-promo .unva-image {
+    right: 0;
+  }
+  .unva-promo .unva-image img {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width:1270px) {
+  /* Unva Normal CSS */
+  .unva-search-box {
+    left: 15px;
+    right: 15px;
+  }
+  .owl-drag .owl-prev, .unva-clients .owl-drag .owl-prev {
+    left: -20px;
+  }
+  .owl-drag .owl-next, .unva-clients .owl-drag .owl-next {
+    right: -20px;
+  }
+  .swiper-container, .unva-banner {
+    height: 800px;
+    min-height: 800px;
+  }
+  .header-style-three .header-wrap {
+    padding: 0 40px;
+  }
+  .masonry-item {
+    width: 33.33333333%;
+  }
+}
+
+@media screen and (min-width:1270px) {
+  /* Unva Normal CSS */
+  .container {
+    padding: 0;
+  }
+  /* Unva Services Page CSS */
+  .unva-promo .row {
+    margin: 0 -25px;
+  }
+  .unva-promo [class*="col-"] {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .header-style-two .unva-brand {
+    padding: 29px 0;
+  }
+  .header-style-two .header-right-links {
+    margin: 30px 0 31px;
+  }
+  /* About Us Page CSS */
+  .testimonials-style-two .container {
+    width: 730px;
+  }
+  /* Unva Pricings Page CSS */
+  .unva-plans .row {
+    margin: 0 -8px;
+  }
+  .unva-plans [class*="col-"] {
+    padding: 0 8px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+
+  .woocommerce .masonry-filters ul li {padding: 0 18px 15px 0;}
+
+  /* Unva Normal CSS */
+  .sticky-footer .main-wrap-inner {
+    margin-bottom: 0 !important;
+    position: static;
+  }
+  .unva-masonry[data-items="5"] .masonry-item {
+    width: 33.33333333%;
+  }
+  .sticky-footer .unva-footer {
+    position: static;
+  }
+  .unva-footer input[type="email"] {
+    width: 80%;
+  }
+  .unva-footer input[type="submit"] {
+    width: 20%;
+  }
+  .instagram-feed ul li {
+    width: auto;
+  }
+  /* Unva Home V1 Page CSS */
+  .cpation-wrap, .swiper-style-two .cpation-wrap, .swiper-style-four .cpation-wrap {
+    width: auto;
+    padding: 0 30px;
+  }
+  .unva-skills [class*="col-"] {
+    width: 100%;
+  }
+  .unva-skills .unva-background {
+    min-height: 500px;
+  }
+  .solution-info .unva-icon [class*="pe-7s"] {
+    font-size: 60px;
+  }
+  .solution-info .unva-icon {
+    padding-bottom: 8px;
+  }
+  .solution-info .solution-title {
+    padding-bottom: 5px;
+  }
+  .blog-item .request-callback, .solution-info {
+    padding: 44px 29px 40px;
+  }
+  /* Unva Home V2 Page CSS */
+  .swiper-style-three .swiper-button-prev {
+    left: 0;
+  }
+  .swiper-style-three .swiper-button-next {
+    right: 0;
+  }
+  .unva-contact .section-title-wrap p br {
+    display: none;
+  }
+  .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    display: none;
+  }
+  .service-info {
+    padding-top: 5px;
+  }
+  .service-info .service-title {
+    padding-bottom: 10px;
+  }
+  .service-info-wrap .section-title-wrap h2, .services-style-two .service-info-wrap .section-title-wrap h2 {
+    font-size: 34px;
+  }
+  /* Unva Home V3 Page CSS */
+  .swiper-style-four .swiper-button-prev {
+    left: 20px;
+  }
+  .swiper-style-four .swiper-button-next {
+    right: 20px;
+  }
+  .offer-item {
+    padding: 0 0 30px;
+  }
+  .unva-templates {
+    padding-bottom: 0;
+  }
+  .unva-templates .unva-image {
+    padding-top: 5px;
+    position: static;
+  }
+  .tab-content {
+    padding-top: 30px;
+  }
+  .difference-info {
+    padding-right: 0;
+  }
+  .nav-tabs > li {
+    padding: 0 10px;
+  }
+  /* Unva Home V4 Page CSS */
+  .unva-location .contact-form {
+    padding: 50px;
+  }
+  .unva-banner .cpation-wrap h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  /* Unva Services Modern Page CSS */
+  .service-item-wrap .unva-background {
+    min-height: 400px;
+  }
+  .toggle-align [class*="col-"]:first-child {
+    float: none;
+  }
+  .service-item-wrap .service-item {
+    padding: 100px;
+  }
+  /* Unva Pricings Page CSS */
+  .templates-style-two {
+    padding-bottom: 133px;
+  }
+  /* Unva 404 Page CSS */
+  .error-wrap {
+    padding: 0 0 30px;
+  }
+  /* Unva Shop Page CSS */
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 33.33333333%;
+  }
+  /* Unva Product Detail Page CSS */
+  .woocommerce ol {
+    width: auto;
+  }
+  .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    width: auto;
+  }
+  .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    width: auto;
+    padding: 10px 0 0;
+  }
+  .woocommerce-tabs {
+    padding-top: 60px;
+  }
+  /* Unva Cart Page CSS */
+  .woocommerce table.shop_table td.product-thumbnail {
+    padding-left: 20px;
+  }
+  .woocommerce table.shop_table td.product-thumbnail a img {
+    margin-right: 25px;
+  }
+  .woocommerce table.shop_table th .thumbnail-title {
+    padding-left: 0;
+  }
+  /* Unva Contact Page CSS */
+  .contact-item {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:992px) {
+  /* Unva Normal CSS */
+  .unva-footer .custom-lay.col-md-4 {
+    width: 32.50%;
+  }
+  .unva-footer .custom-lay.col-md-2 {
+    width: 13.50%;
+  }
+  .unva-footer .custom-lay.col-md-3 {
+    width: 27%;
+  }
+  /* Unva Home V4 Page  CSS */
+  .header-style-three .header-right-links {
+    padding: 37px 0 39px 35px;
+    margin: 0 0 0 21px;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .header-style-three .unva-brand {
+    padding: 35px 0;
+  }
+}
+
+@media screen and (max-width:991px) {
+  /* Unva Normal CSS */
+  .unva-topbar {
+    padding: 25px 0 18px;
+    text-align: center;
+  }
+  .unva-topbar .pull-right .unva-social, ul.top-wpml {
+    display: inline-block;
+    float: none;
+  }
+  .unva-topbar .pull-left {
+    width: 100%;
+  }
+  .unva-topbar .pull-right {
+    width: 100%;
+    padding-top: 5px;
+  }
+  .unva-topbar ul li {
+    padding: 0 8px 10px;
+  }
+  .unva-topbar ul li.languages-select {
+    padding: 0 4px;
+  }
+  .transparent-header .unva-topbar, .unva-topbar ul li:after {
+    display: none;
+  }
+  .admin-bar .transparent-header .unva-header {
+    top: 32px;
+  }
+  .masonry-item {
+    width: 50%;
+  }
+  .sticky-footer .main-wrap-inner {
+    margin-bottom: 0 !important;
+    position: static;
+  }
+  .unva-topbar ul li {
+    padding-right: 20px;
+  }
+  .unva-topbar ul li:after {
+    right: 7px;
+  }
+  /* Unva Home V1 Page CSS */
+  .swiper-style-two .unva-slide-cpation {
+    text-align: center;
+  }
+  .cpation-wrap h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .unva-difference .tab-content .wpb_column.vc_column_container {
+    padding: 20px 0 40px;
+  }
+  .section-title-wrap {
+    max-width: none;
+  }
+  .section-title-wrap h2 br {
+    display: none;
+  }
+  .newsletter-form {
+    width: auto;
+  }
+  .process-item:after {
+    display: none;
+  }
+  .unva-promo .unva-image {
+    position: static;
+    padding-top: 70px;
+    text-align: center;
+  }
+  .unva-promo .unva-image img {
+    max-width: 100%;
+  }
+  .promo-style-two {
+    padding-bottom: 0;
+  }
+  .plans-wrap {
+    padding-right: 0;
+  }
+  .flex-direction-nav {
+    padding-bottom: 25px;
+  }
+  .promo-info {
+    padding-right: 0;
+  }
+  .unva-footer [class*="col-"] {
+    padding-bottom: 50px;
+  }
+  .tweet-item:last-child {
+    padding: 0;
+    margin: 0;
+  }
+  .quick-links {
+    padding: 0;
+  }
+  .unva-clients {padding: 30px 0 10px;}
+  /* Unva Home V2 Page CSS */
+  .unva-contact .contact-form {
+    padding-top: 40px;
+  }
+  .unva-contact-block {
+    text-align: center;
+  }
+  .unva-contact-block .contact-title {
+    padding-bottom: 25px;
+  }
+  .unva-contact-block .text-right {
+    text-align: center;
+  }
+  .service-info-wrap .section-title-wrap {
+    text-align: center;
+  }
+  .portfolio-items-wrap {
+    padding: 0 25px;
+  }
+  .unva-stats.stats-style-two .section-title-wrap {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  /* Unva Home V3 Page CSS */
+  .difference-info {
+    padding: 25px 0 50px;
+  }
+  .unva-startup.startup-style-two .section-title-wrap {
+    padding: 0 0 20px;
+  }
+  .unva-callout .callout-title br {
+    display: none;
+  }
+  .portfolio-style-two .portfolio-info {
+    top: 25px;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+  }
+  /* Unva Home V4 Page CSS */
+  .login-form {
+    display: none;
+  }
+  .unva-banner .unva-slide-cpation {
+    text-align: center;
+  }
+  .unva-location .contact-form, .unva-location .unva-map {
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+  }
+  /* Unva Aboutus Page CSS */
+  .unva-page-title {
+    padding: 100px 0;
+  }
+  .ideas-style-two .section-title-wrap {
+    padding-bottom: 50px;
+  }
+  /* Unva Aboutme Page CSS */
+  .unva-about-me {
+    text-align: center;
+  }
+  .my-info {
+    padding-top: 50px;
+  }
+  .my-info h2 {
+    font-size: 45px;
+    line-height: 48px;
+  }
+  .startup-wrap {
+    padding: 0;
+  }
+  .hire-title br {
+    display: none;
+  }
+  /* Unva Services Modern Page CSS */
+  .service-item-wrap .service-item {
+    padding: 100px 50px;
+  }
+  /* Unva Pricings Page CSS */
+  .unva-templates .request-callback {
+    margin: 30px 0 0;
+    max-width: none;
+  }
+  .plan-item h2 {
+    line-height: 60px;
+  }
+  /* Unva Portfolio Page */
+  .portfolio-detail-item {
+    width: 33.33333333%;
+  }
+  /* Unva Portfolio Single Page CSS */
+  .control-link {
+    padding-left: 40px;
+  }
+  .unva-controls-links .text-right .control-link {
+    padding-right: 40px;
+  }
+  /* Unva Shop Page CSS */
+  .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    float: none;
+    margin: 0 0 30px;
+  }
+  .woocommerce .masonry-filters {
+    float: none;
+    padding: 0 0 25px;
+  }
+  .woocommerce .masonry-filters ul li {
+    padding: 0 20px 20px;
+  }
+  .woocommerce .woocommerce-ordering .nice-select {
+    margin-bottom: 10px;
+  }
+  /* Unva Cart Page CSS */
+  .woocommerce .actions .coupon .input-text {
+    width: 220px;
+  }
+  .woocommerce .actions a.button.alt {
+    min-width: 200px;
+  }
+  /* Unva Checkout Page CSS */
+  .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    width: 100%;
+  }
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    padding-top: 50px;
+    width: 100%;
+  }
+  /* Unva Blog Grid Page CSS */
+  .unva-primary {
+    float: none;
+    width: auto;
+  }
+  .unva-secondary {
+    float: none;
+    padding-top: 70px;
+    width: auto;
+  }
+  .left-sidebar .unva-primary {
+    float: none;
+  }
+  .faq-image-wrap .faqimage {
+    position: relative;
+  }
+  .unva-footer .col-md-2.custom-lay .unva-widget.widget_text, .unva-footer .col-md-2.custom-lay .unva-widget.vt-text-widget {padding: 0px;}
+}
+@media screen and (max-width:782px) {
+  .admin-bar .close-btn {
+    top: 50px;
+  }
+}
+@media screen and (min-width:768px) {
+  /* Unva Home V1 Page CSS */
+  .promo-style-two .row {
+    margin: 0 -15px;
+  }
+  .promo-style-two [class*="col-"] {
+    padding: 0 15px;
+  }
+  /* Unva Home V2 Page CSS */
+  .unva-contact .contact-form .row {
+    margin: 0 -10px;
+  }
+  .unva-contact .contact-form [class*="col-"] {
+    padding: 0 10px;
+  }
+  .team-style-two .row {
+    margin: 0 -5px;
+  }
+  .team-style-two [class*="col-"] {
+    padding: 0 5px;
+  }
+  /* Unva Blog Single Page CSS */
+  .unva-comment-form .row {
+    margin: 0 -6px;
+  }
+  .unva-comment-form [class*="col-"] {
+    padding: 0 6px;
+  }
+}
+
+@media screen and (max-width:799px) {
+  /* Unva Normal CSS */
+  .container {
+    padding: 0 25px;
+  }
+  .unva-masonry[data-items="5"] .masonry-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:767px) {
+  /* Unva Normal CSS */
+  h1, .h1 {
+    font-size: 30px;
+  }
+  h2, .h2 {
+    font-size: 26px;
+  }
+  h3, .h3 {
+    font-size: 20px;
+  }
+  blockquote {
+    padding-left: 50px;
+    margin: 10px 0;
+  }
+  blockquote p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  textarea, textarea.form-control {
+    height: 130px;
+  }
+  .row {
+    margin: 0;
+  }
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding: 0;
+  }
+  .unva-search-box {
+    left: 0;
+    right: 0;
+    padding: 0 25px;
+  }
+  .unva-search-box .search-closer {
+    right: 25px;
+  }
+  .unva-search-box input[type="text"] {
+    padding-right: 30px;
+  }
+  .unva-fixed-navigation {
+    padding: 50px 0;
+  }
+  .unva-fixed-navigation .unva-navigation {
+    padding-bottom: 40px;
+  }
+  .unva-fixed-navigation .unva-navigation > ul > li {
+    padding-bottom: 15px;
+  }
+  .main-wrap-inner .unva-fixed-navigation .unva-navigation > ul > li > a {
+    font-size: 22px;
+  }
+  .unva-fixed-navigation .dropdown-nav > li > a {
+    font-size: 15px;
+  }
+  .unva-fixed-navigation .dropdown-nav {
+    padding: 10px 0 0;
+  }
+  .swiper-container, .unva-banner {
+    height: 450px;
+    min-height: 450px;
+  }
+  .unva-mid-wrap {
+    padding: 50px 0;
+  }
+  /* Unva Home V1 Page CSS */
+  .swiper-style-two .cpation-wrap .cpation-title {
+    padding-top: 0;
+  }
+  .cpation-wrap h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .cpation-wrap .cpation-title {
+    padding-bottom: 10px;
+  }
+  .swiper-style-two .cpation-wrap .unva-btn {
+    margin: 0 4px 5px 3px;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 20px;
+  }
+  .section-title-wrap h2 {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .section-title, .skills-info .section-title-wrap, .unva-newsletter .section-title-wrap {
+    padding-bottom: 10px;
+  }
+  .section-title-wrap, .plans-style-two .section-title-wrap {
+    padding-bottom: 20px;
+  }
+  .about-item, .plan-item, .process-item, .blog-item {
+    margin-bottom: 25px;
+  }
+  .unva-skills .unva-background {
+    min-height: 300px;
+  }
+  .skills-info {
+    padding: 50px 25px 40px;
+  }
+  .unva-solutions {
+    padding: 50px 0 35px;
+  }
+  .solution-item {
+    margin-bottom: 25px;
+  }
+  .progress-item {
+    padding-bottom: 0;
+  }
+  .about-info {
+    padding: 45px 25px 15px;
+  }
+  .about-info .about-title {
+    padding-bottom: 10px;
+  }
+  .promo-style-two {
+    padding-top: 50px;
+  }
+  .promo-style-two .section-title-wrap {
+    padding-bottom: 15px;
+  }
+  .unva-promo .unva-image {
+    padding-top: 25px;
+  }
+  .solution-info {
+    padding: 20px;
+  }
+  .solution-info h4 {
+    font-size: 18px;
+  }
+  .newsletter-form input[type="email"] {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+  .newsletter-form input[type="submit"], .newsletter-form button[type="submit"] {
+    width: 100%;
+  }
+  .panel-title {
+    font-size: 16px;
+  }
+  .panel-heading a {
+    padding: 10px 10px 10px 70px;
+  }
+  .panel-heading a:before, .panel-heading a:after {
+    width: 50px;
+  }
+  .blog-style-two .blog-info {
+    padding: 25px;
+  }
+  .unva-blog {
+    text-align: center;
+  }
+  .blog-item, .about-item {
+    width: 370px;
+    margin: 0 auto 25px;
+    display: block;
+  }
+  .blog-info {
+    text-align: left;
+  }
+  .blog-item .request-callback {
+    padding: 25px;
+  }
+  .blog-item .callback-form {
+    padding-top: 10px;
+  }
+  .owl-drag .owl-prev, .unva-clients .owl-drag .owl-prev {
+    left: 0;
+  }
+  .owl-drag .owl-next, .unva-clients .owl-drag .owl-next {
+    right: 0;
+  }
+  .unva-footer [class*="col-"] {
+    padding-bottom: 25px;
+  }
+  .unva-footer .column-title {
+    padding-bottom: 10px;
+  }
+  .unva-footer h4 {
+    font-size: 18px;
+  }
+  .unva-footer .subscribe-form {
+    padding-top: 10px;
+  }
+  .tweet-item {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  .copyright {
+    padding: 30px 0 25px;
+    text-align: center;
+  }
+  .copyright .pull-left {
+    width: 100%;
+  }
+  .copyright .pull-right {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .copyright ul li {
+    padding: 0 10px 0 15px;
+    margin: 5px 0;
+  }
+  .preloader-percentage-text, .percentage {
+    font-size: 60px;
+  }
+  /* Unva Home V2 Page CSS */
+  .unva-btn-group {
+    padding-top: 15px;
+  }
+  .unva-ideas {
+    padding: 50px 0 30px;
+  }
+  .ideas-wrap {
+    padding-top: 25px;
+  }
+  .idea-item {
+    padding-bottom: 15px;
+  }
+  .idea-item .idea-title {
+    padding-bottom: 5px;
+  }
+  .unva-contact, .unva-contact-block {
+    padding: 50px 0;
+  }
+  .unva-contact .section-title-wrap {
+    padding-bottom: 0;
+  }
+  .unva-contact .contact-form {
+    padding-top: 25px;
+  }
+  .unva-number, .unva-number a {
+    font-size: 20px;
+  }
+  .masonry-filters {
+    padding-bottom: 15px;
+  }
+  .masonry-filters ul li {
+    padding-bottom: 10px;
+  }
+  .masonry-filters ul li a {
+    padding: 3px 15px;
+  }
+  .unva-masonry, .unva-masonry[data-space] {
+    margin: 0;
+  }
+  .unva-masonry[data-space] .masonry-item {
+    padding: 0 0 25px;
+  }
+  .unva-masonry[data-items] .masonry-item {
+    width: 100%;
+  }
+  .masonry-item {
+    padding: 0 0 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .masonry-item .unva-image img {
+    width: auto;
+  }
+  .unva-portfolio {
+    padding: 10px 0 40px;
+  }
+  .unva-portfolio .section-title-wrap {
+    padding-bottom: 10px;
+  }
+  .portfolio-item {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .portfolio-info {
+    padding: 25px;
+    text-align: left;
+  }
+  .unva-team.team-style-two {
+    padding: 50px 0 25px;
+  }
+  .mate-item {
+    padding: 25px 25px 15px;
+    margin-bottom: 25px;
+  }
+  .mate-info {
+    padding-top: 20px;
+  }
+  .mate-info .mate-name {
+    padding: 0 0 5px;
+  }
+  .service-item {
+    padding: 25px 25px 20px;
+    height: auto !important;
+  }
+  .service-info-wrap, .services-style-two .service-info-wrap {
+    padding: 50px 0;
+  }
+  .unva-services .section-title-wrap .section-title {
+    padding: 0 15px 15px;
+  }
+  .service-info-wrap .section-title-wrap h2, .services-style-two .service-info-wrap .section-title-wrap h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .unva-testimonials .section-title-wrap {
+    padding-bottom: 0;
+  }
+  .testimonial-item .unva-icon {
+    padding-bottom: 25px;
+  }
+  .testimonial-item p {
+    font-size: 17px;
+  }
+  .testimonial-item .author-name {
+    padding: 5px 0;
+  }
+  .owl-carousel .owl-dots {
+    padding-top: 5px;
+  }
+  .service-info h3 {
+    font-size: 20px;
+  }
+  .unva-stats.stats-style-two {
+    padding: 50px 0 25px;
+  }
+  .stats-item h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .stats-item .unva-icon {
+    padding-bottom: 5px;
+  }
+  .stats-item .status-number {
+    padding-bottom: 3px;
+  }
+  .stats-item {
+    padding-bottom: 15px;
+  }
+  .blog-info {
+    padding: 35px 25px 25px;
+  }
+  .blog-info .blog-title {
+    padding-bottom: 8px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .blog-meta {
+    padding-top: 0;
+    padding-right: 20px;
+  }
+  .post-more {
+    float: unset;
+  }
+  /* Unva Home V3 Page CSS */
+  .unva-parallax-arrow {
+    bottom: 20px;
+  }
+  .swiper-style-four .cpation-wrap .cpation-title {
+    padding: 0 0 10px;
+  }
+  .unva-offers {
+    padding: 50px 0 25px;
+  }
+  .offer-item {
+    padding-bottom: 15px;
+  }
+  .offer-item .unva-icon {
+    margin-bottom: 5px;
+  }
+  .offer-info .offer-title {
+    padding-bottom: 5px;
+  }
+  .unva-templates {
+    padding: 50px 0 0;
+  }
+  .templates-wrap {
+    padding-right: 0;
+  }
+  .unva-templates .section-title-wrap {
+    padding-bottom: 10px;
+  }
+  .template-features {
+    padding-top: 20px;
+  }
+  .template-item {
+    padding: 0 0 8px;
+  }
+  .template-title {
+    padding-bottom: 5px;
+  }
+  .unva-difference {
+    padding: 50px 0;
+  }
+  .tab-content {
+    padding-top: 0;
+  }
+  .tab-heading {
+    font-size: 16px;
+  }
+  .difference-title, .difference-info p {
+    padding-bottom: 10px;
+  }
+  .difference-info {
+    padding-bottom: 25px;
+  }
+  .difference-info .unva-btn-group {
+    padding-top: 5px;
+  }
+  .difference-info .check-list {
+    padding-top: 0;
+  }
+  .unva-startup.startup-style-two {
+    padding: 50px 0;
+  }
+  .circle-progressbar {
+    margin-bottom: 25px;
+  }
+  .unva-team {
+    padding: 50px 0 30px;
+  }
+  .unva-callout h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .unva-callout .unva-btn-group {
+    padding-top: 10px;
+  }
+  .portfolio-style-two {
+    padding: 50px 25px;
+  }
+  .portfolio-style-two .unva-btn-group {
+    padding: 0;
+  }
+  .request-callback {
+    padding: 25px 25px 30px;
+  }
+  .callback-title {
+    padding-bottom: 8px;
+  }
+  .request-callback ul {
+    padding: 0 0 10px;
+  }
+  .unva-startup.startup-style-two, .unva-startup.startup-style-two .section-title-wrap {
+    text-align: center;
+  }
+  /* Unva Home V4 Page CSS */
+  .header-style-three .header-wrap {
+    padding: 0 25px;
+  }
+  .unva-banner .cpation-wrap p {
+    font-size: 20px;
+  }
+  .unva-banner .cpation-wrap a img {
+    width: 60px;
+    height: auto;
+  }
+  .unva-banner .cpation-wrap .cpation-title {
+    padding-top: 0;
+  }
+  .unva-banner .cpation-wrap h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .team-style-two .mate-info {
+    padding: 20px 20px 13px;
+  }
+  .unva-location {
+    padding: 50px 0;
+  }
+  .unva-location .contact-title {
+    padding-bottom: 15px;
+  }
+  .unva-location h3 {
+    font-size: 22px;
+  }
+  .unva-location .contact-form {
+    padding: 25px;
+  }
+  .unva-location .unva-map {
+    height: 300px;
+  }
+  /* Unva Aboutus Page CSS */
+  .unva-page-title {
+    padding: 50px 0 40px;
+  }
+  .unva-page-title h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .unva-page-title .page-title {
+    padding-bottom: 5px;
+  }
+  .unva-page-title p {
+    line-height: 26px;
+  }
+  .ideas-style-two {
+    padding-bottom: 25px;
+  }
+  .ideas-style-two .ideas-wrap {
+    padding-top: 25px;
+  }
+  .ideas-style-two .section-title-wrap {
+    padding-bottom: 25px;
+  }
+  .ideas-style-two .section-title-wrap h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .ideas-style-two .unva-btn-group {
+    padding-top: 10px;
+  }
+  .ideas-style-two .section-title {
+    padding-bottom: 5px;
+  }
+  .testimonials-style-two .author-name {
+    padding: 15px 0 5px;
+    margin-top: 10px;
+  }
+  .testimonials-style-two .owl-carousel .owl-dots {
+    padding-top: 10px;
+  }
+  .unva-stats {
+    padding: 50px 0 25px;
+  }
+  .unva-stats .section-title-wrap {
+    padding-bottom: 20px;
+  }
+  /* Unva Aboutme Page CSS */
+  .unva-about-me {
+    padding: 50px 0;
+  }
+  .my-info {
+    padding-top: 25px;
+  }
+  .my-info h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .my-info .my-name {
+    padding-bottom: 8px;
+  }
+  .my-info .unva-image {
+    padding-top: 10px;
+  }
+  .my-quote {
+    padding-bottom: 10px;
+  }
+  .unva-startup {
+    padding: 50px 0 25px;
+  }
+  .unva-hire {
+    padding: 50px 0;
+  }
+  .unva-hire h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .unva-hire .unva-btn-group {
+    padding-top: 10px;
+  }
+  /* Unva Services Page CSS */
+  .unva-promo {
+    padding: 50px 0 35px;
+  }
+  .unva-promo .section-title-wrap {
+    padding-bottom: 15px;
+  }
+  .offers-style-two .unva-image {
+    padding-top: 0;
+  }
+  /* Unva Services Modern Page CSS */
+  .service-item-wrap .service-item {
+    padding: 50px 25px;
+  }
+  .service-item-wrap .unva-background {
+    min-height: 300px;
+  }
+  .service-item-wrap .service-info {
+    padding-top: 5px;
+  }
+  .service-item-wrap .service-info h3 {
+    font-size: 22px;
+  }
+  .service-item-wrap .service-info .unva-btn-group {
+    padding-top: 10px;
+  }
+  /* Unva Team Page CSS */
+  .unva-team.team-spacer-one {
+    padding: 50px 0 25px;
+  }
+  /* Unva Pricings Page CSS */
+  .unva-plans {
+    padding: 50px 0 25px;
+  }
+  .templates-style-two {
+    padding-bottom: 50px;
+  }
+  .unva-templates .request-callback {
+    padding: 30px;
+    margin-top: 5px;
+  }
+  .plan-item .plan-price {
+    padding-bottom: 5px;
+  }
+  .plan-item .unva-btn-group {
+    padding-top: 15px;
+  }
+  /* Unva 404 Page CSS */
+  .error-wrap {
+    padding: 50px 0 60px;
+  }
+  .error-wrap h1 {
+    font-size: 100px;
+    line-height: 85px;
+  }
+  .error-wrap h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .error-wrap .error-sub-title {
+    padding-bottom: 10px;
+  }
+  .error-wrap form {
+    padding-top: 10px;
+  }
+  /* Unva Portfolio Page */
+  .unva-pagination {
+    padding-top: 0;
+  }
+  /* Unva Portfolio Single Page */
+  .portfolio-detail-wrap {
+    padding-top: 0;
+  }
+  .portfolio-detail-title {
+    padding-bottom: 8px;
+  }
+  .portfolio-detail-items {
+    padding: 20px 0 0;
+    margin-top: 10px;
+  }
+  .portfolio-detail-item {
+    padding: 0 20px 10px 0;
+    width: 50%;
+  }
+  .portfolio-detail-item h4 {
+    font-size: 18px;
+  }
+  .portfolio-detail-item .unva-social {
+    padding: 0;
+  }
+  .portfolio-detail-item .unva-social a {
+    margin-bottom: 5px;
+  }
+  .unva-controls-links {
+    padding-top: 25px;
+  }
+  .unva-controls-links [class*="col-"] {
+    float: left;
+    width: 50%;
+  }
+  .control-link-title {
+    display: none;
+  }
+  /* Unva Shop Page CSS */
+  .woocommerce ul.products {
+    padding-top: 15px;
+    margin: 0;
+  }
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: none;
+    width: 100%;
+    padding: 0 0 25px;
+  }
+  .woocommerce ul.products li.product a img {
+    width: auto;
+  }
+  .woocommerce .masonry-filters {
+    padding-bottom: 10px;
+  }
+  .woocommerce nav.woocommerce-pagination ul {
+    margin: 0;
+  }
+  .woocommerce .masonry-filters ul li {
+    padding: 0 15px 15px;
+  }
+  .woocommerce nav.woocommerce-pagination {
+    padding-top: 0;
+  }
+  /* Unva Product Detail Page CSS */
+  .mid-spacer-four {
+    padding-bottom: 25px;
+  }
+  .woocommerce ol {
+    width: 27%;
+  }
+  .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    width: 73%;
+  }
+  .woocommerce ol li {
+    margin-bottom: 15px;
+  }
+  .woocommerce ol li:last-child {
+    margin-bottom: 0;
+  }
+  .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    padding: 20px 0 0;
+  }
+  .woocommerce div.product .product_title {
+    font-size: 20px;
+  }
+  .woocommerce div.product .woocommerce-product-rating {
+    margin-bottom: 5px;
+  }
+  .woocommerce div.product p.price {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  .woocommerce div.product .product-color {
+    display: block;
+    padding-top: 20px;
+  }
+  .woocommerce div.product form.cart, .woocommerce div.product p.cart {
+    padding: 10px 0 25px;
+  }
+  .yith-wcwl-add-to-wishlist {
+    display: block;
+    padding: 25px 0 0;
+  }
+  .woocommerce div.product .product_meta.meta-categories {
+    padding: 20px 0 0;
+  }
+  .product_meta .posted_in {
+    padding-bottom: 5px;
+  }
+  .woocommerce-tabs {
+    padding-top: 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist {
+    padding-top: 5px;
+  }
+  .woocommerce div.product .woocommerce-tabs .panel {
+    padding: 20px 0 15px;
+    margin-bottom: 15px;
+  }
+  .woocommerce div.product .woocommerce-tabs p {
+    padding-bottom: 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist .commentlist {
+    padding-left: 15px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li {
+  margin-bottom: 10px;
+}
+  .woocommerce #reviews #comments ol.commentlist .comment_container {
+    padding-bottom: 5px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text {
+    padding-left: 20px;
+  }
+  .woocommerce #reviews h3 {
+    padding: 0 0 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  .woocommerce #review_form #respond .comment-form-wrap {
+    padding-top: 20px;
+  }
+  .woocommerce #review_form #respond input[type="text"], .woocommerce #review_form #respond input[type="email"], .woocommerce #review_form #respond textarea {
+    margin-bottom: 20px;
+  }
+  .woocommerce #reviews #comment {
+    height: 120px;
+  }
+  .woocommerce .related-products {
+    padding-top: 10px;
+  }
+  .woocommerce .related-products h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* Unva Cart Page CSS */
+  .woocommerce table.shop_table td.product-thumbnail a img {
+    max-width: 80px;
+  }
+  .woocommerce table.shop_table td {
+    padding: 20px 20px;
+  }
+  .woocommerce .cart_totals {
+    padding: 25px 0;
+  }
+  .woocommerce .actions {
+    padding-top: 25px;
+  }
+  .woocommerce .actions .pull-right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  /* Unva Checkout Page CSS */
+  .woocommerce form.login, .woocommerce form.register {
+    padding: 0;
+  }
+  .woocommerce form.checkout_coupon {
+    padding: 0 0 20px;
+  }
+  .woocommerce form.checkout_coupon input.input-text {
+    float: none;
+    width: 100%;
+  }
+  .woocommerce form.checkout_coupon input.button {
+    float: none;
+    margin: 15px 0 0;
+  }
+  .woocommerce-checkout {
+    padding-top: 0;
+  }
+  .woocommerce-checkout h3 {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+    width: 100%;
+  }
+  .woocommerce form .additional-info {
+    padding: 25px 0 5px;
+  }
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    padding-top: 15px;
+  }
+  .woocommerce form .form-text {
+    margin-bottom: 15px;
+  }
+  .woocommerce form .form-row textarea {
+    height: 120px;
+  }
+  .woocommerce form .lost_password {
+    padding: 15px 0 20px;
+  }
+  .woocommerce-checkout-review-order {
+    padding: 15px 25px 25px;
+  }
+  .woocommerce div.create-account input[type="password"] {
+    margin-bottom: 0;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table thead th {
+    padding: 10px 20px 10px 0;
+    font-size: 18px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody td {
+    min-width: auto;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .order-total th {
+    padding: 10px 20px 10px 0;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody > tr:first-child > td {
+    padding-top: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody > tr:last-child > td {
+    padding-bottom: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot > tr:first-child > th, .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot > tr:first-child > td {
+    padding-top: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .shipping th, .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .shipping td {
+    padding-bottom: 10px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .cart-subtotal .amount {
+    font-size: 16px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .order-total .amount {
+    font-size: 20px;
+  }
+  .woocommerce #add_payment_method #payment div.form-row, .woocommerce .woocommerce-cart #payment div.form-row, .woocommerce .woocommerce-checkout #payment div.form-row {
+    padding-top: 15px;
+  }
+  .woocommerce #add_payment_method #payment ul.payment_methods, .woocommerce .woocommerce-cart #payment ul.payment_methods, .woocommerce .woocommerce-checkout #payment ul.payment_methods {
+    padding: 5px 0 0;
+  }
+  /* Unva Blog Grid Page CSS */
+  .unva-primary {
+    padding: 0;
+  }
+  .unva-secondary {
+    padding: 50px 0 0;
+  }
+  .unva-primary .unva-pagination {
+    padding-top: 0;
+  }
+  .blog-info h4 {
+    line-height: 24px;
+  }
+  .widget-title, .widget-posts .widget-title {
+    margin-bottom: 25px;
+  }
+  .unva-widget, .unva-widget.widget-tags {
+    padding-bottom: 20px;
+  }
+  .unva-widget.widget-categories, .unva-widget.widget-author {
+    padding-bottom: 10px;
+  }
+  .unva-widget:last-child, .post-item:last-child {
+    padding-bottom: 0;
+  }
+  .widget-categories .widget-title {
+    margin-bottom: 10px;
+  }
+  .blog-author .unva-image {
+    padding-bottom: 15px;
+  }
+  .blog-author .author-name {
+    padding-bottom: 5px;
+  }
+  /* Unva Blog Single Page CSS */
+  .blog-detail-wrap {
+    padding: 30px 25px 20px;
+  }
+  .blog-detail-wrap p {
+    padding-bottom: 10px;
+  }
+  .blog-detail-wrap br {
+    display: none;
+  }
+  .blog-title-wrap .pull-right {
+    width: 100%;
+  }
+  .blog-title-wrap .blog-meta {
+    padding: 0 0 8px;
+  }
+  .alignleft {
+    display: block;
+    float: none;
+    margin: 10px 0 20px;
+  }
+  .blog-detail-meta {
+    padding-top: 5px;
+  }
+  .unva-author-info {
+    margin-top: 25px;
+  }
+  .author-content .unva-social {
+    padding-top: 0;
+  }
+  .comments-section {
+    padding: 25px 0 0;
+  }
+  .unva-comments-area .comments-title {
+    padding-bottom: 20px;
+  }
+  .unva-comments-area .comment-item {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  .unva-comments-area .comments li .children {
+    padding-left: 50px;
+  }
+  .unva-blog-detail .comment-reply-title {
+    padding-bottom: 15px;
+  }
+  /* Unva Contact Page CSS */
+  .unva-contact-wrap {
+    padding: 50px 0;
+  }
+  .contact-item {
+    padding: 0 0 20px;
+  }
+  .contact-info {
+    padding-left: 15px;
+  }
+  .contact-info h4 {
+    font-size: 18px;
+  }
+  .contact-info .contact-title {
+    padding-bottom: 5px;
+  }
+  .unva-contact-wrap form {
+    padding-top: 10px;
+  }
+  .unva-contact-wrap textarea, .unva-contact-wrap textarea.form-control {
+    margin-bottom: 20px;
+  }
+  .unva-map {
+    height: 300px;
+  }
+  /* Unva Content Cross Check Page CSS */
+  .entry-content dd {
+    margin-bottom: 10px;
+  }
+  .wp-caption {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .entry-content .comment-list article, .entry-content .comment-list .pingback, .entry-content .comment-list .trackback {
+    padding: 20px 0;
+  }
+  .entry-content .comment-content ul, .entry-content .comment-content ol {
+    margin: 0 0 10px 0;
+  }
+  .entry-content .comment-metadata {
+    margin-bottom: 5px;
+  }
+  .entry-content .comment-list .comment-reply-link {
+    margin-top: 0;
+  }
+  .entry-content .comment-list .children {
+    padding-left: 0;
+  }
+  .entry-content .comment-notes, .entry-content .comment-awaiting-moderation, .entry-content .logged-in-as, .entry-content .form-allowed-tags {
+    padding-bottom: 10px;
+  }
+  .unva-unit-fix .entry-content .comment-form {
+    padding-top: 0;
+  }
+  .unva-unit-fix .entry-content .comment-list article, .unva-unit-fix .entry-content .comment-list .pingback, .unva-unit-fix .entry-content .comment-list .trackback {
+    padding: 15px 0 20px;
+  }
+  .woocommerce table.shop_table td {
+    border-bottom: none;
+  }
+  .woocommerce table.shop_table tr:last-child td:last-child {
+    border-bottom: 1px solid #ececec;
+  }
+  .unva-item-cart-btns .pull-left, .unva-item-cart-btns .pull-right {
+    text-align: center;
+    float: none !important;
+  }
+  .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    width: 100%;
+    float: left;
+  }
+
+}
+
+@media screen and (max-width:599px) {
+  /* Unva Normal CSS */
+  blockquote {
+    padding: 40px 0 0;
+    margin: 15px 0 10px;
+    background-position: top left;
+  }
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
+  .cpation-wrap, .swiper-style-two .cpation-wrap, .swiper-style-four .cpation-wrap {
+    padding: 0;
+  }
+  .cpation-wrap h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .cpation-wrap p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .close-btn {
+    top: 20px;
+    right: 20px;
+  }
+  .unva-page-title h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* Unva Home V2 Page CSS */
+  .unva-contact-block h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  /* Unva Home V3 Page CSS */
+  .unva-callout h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* Unva Home V4 Page CSS */
+  .unva-banner .cpation-wrap h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* Unva Aboutus Page CSS */
+  .ideas-style-two .section-title-wrap h2 {
+    font-size: 24px;
+    line-height: normal;
+  }
+  /* Unva Aboutme Page CSS */
+  .unva-hire h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* Unva Pricings Page CSS */
+  .plan-item h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+  /* Unva 404 Page CSS */
+  .error-wrap h1 {
+    font-size: 85px;
+    line-height: 70px;
+  }
+  .error-wrap h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .error-wrap .error-sub-title {
+    padding-bottom: 5px;
+  }
+  /* Unva Product Detail Page CSS */
+  .woocommerce #reviews #comments ol.commentlist li .comment-text .star-rating {
+    display: block;
+    float: none;
+    margin-top: 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text .description {
+    padding-top: 5px;
+  }
+  .woocommerce #reviews #comments ol.commentlist .comment_container {
+    text-align: center;
+  }
+  .woocommerce #reviews #comments ol.commentlist li img.avatar {
+    float: none;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text {
+    padding: 15px 0 0;
+  }
+  .woocommerce .related-products h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .woocommerce #review_form #respond p.form-submit button[type="submit"] {
+    width: 100%;
+  }
+  .woocommerce div.product .woocommerce-tabs ul.tabs {
+    text-align: center;
+  }
+  .woocommerce div.product .woocommerce-tabs ul.tabs li {
+    display: inline-block;
+    float: none;
+    margin: 0 10px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text .star-rating {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Unva Checkout Page CSS */
+  .woocommerce form.checkout_coupon input.input-text, .woocommerce form.checkout_coupon input.button {
+    width: 100%;
+  }
+  /* Unva Blog Single Page CSS */
+  .blog-detail-meta .pull-right {
+    padding-top: 8px;
+    width: 100%;
+  }
+  .author-avatar {
+    float: none;
+  }
+  .author-content .unva-social a {
+    margin: 0 4px 5px;
+  }
+  .unva-author-info {
+    text-align: center;
+  }
+  .author-content {
+    padding: 15px 0 0;
+  }
+  .unva-comments-area .comments li .children {
+    padding-left: 0;
+  }
+  .unva-comments-area .comment-image {
+    float: none;
+    padding-top: 0;
+  }
+  .unva-comments-area .comment-main-area {
+    padding: 15px 0 0;
+  }
+  .unva-comments-area .unva-comments-meta {
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width:479px) {
+  /* Unva Normal CSS */
+  .section-title-wrap h2, .unva-page-title h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button,
+  .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button,
+  .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+    margin-bottom: 20px;
+  }
+  table th {
+    padding: 8px 3px;
+    font-size: 14px;
+  }
+  table td {
+    padding: 8px 2px;
+    font-size: 13px;
+  }
+  .unva-custom-padding .vc_column-inner {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  /* Unva Home V2 Page CSS */
+  .idea-item {
+    text-align: center;
+  }
+  .idea-item .idea-info {
+    padding-left: 0;
+  }
+  .idea-item .unva-icon {
+    float: none;
+    padding: 0 0 10px;
+    padding-bottom: 10px;
+  }
+  /* Unva Aboutus Page CSS */
+  .ideas-style-two .section-title-wrap {
+    text-align: center;
+  }
+  /* Unva Aboutme Page CSS */
+  .my-info h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* Unva Portfolio Single Page */
+  .portfolio-detail-items {
+    padding-bottom: 10px;
+  }
+  .portfolio-detail-item {
+    float: none;
+    width: auto;
+    padding: 0;
+  }
+  /* Unva Cart Page CSS */
+  .woocommerce .cart_totals .pull-right {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .woocommerce .actions .coupon .input-text {
+    margin: 0 0 15px;
+  }
+  .woocommerce #reviews #comments ol.commentlist .commentlist {
+    padding-left: 0;
+  }
+  .woocommerce .cart_totals .pull-left {
+    width: 100%;
+  }
+  .woocommerce .cart_totals .unva-btn, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce .actions a.button.alt {
+    width: 100%;
+  }
+   .woocommerce .actions .coupon .input-text {
+    width: 100%;
+    text-align: center;
+   }
+  /* Unva Checkout Page CSS */
+  .woocommerce form .form-row label.inline {
+    display: block;
+    margin: 15px 0 0;
+  }
+  .woocommerce .wc_payment_method .wpcf7-list-item-label {
+    font-size: 14px;
+  }
+  /* Unva Contact Page CSS */
+  .unva-contact-wrap form input[type="submit"], .unva-contact-wrap form button[type="submit"] {
+    width: 100%;
+  }
+  .contact-info p, .contact-item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  /* Unva Home V2 Page CSS */
+  .blog-item, .about-item {
+    width: auto;
+  }
+  .woocommerce .wc-proceed-to-checkout .button.alt {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width:359px) {
+  /* Unva Home V1 Page CSS */
+  .solution-info .unva-icon [class*="pe-7s"] {
+    font-size: 48px;
+  }
+}

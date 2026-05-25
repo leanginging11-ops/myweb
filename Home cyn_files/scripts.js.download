@@ -1,0 +1,518 @@
+jQuery(document).ready(function($) {
+  "use strict";
+  // Unova Sticky Header Script
+  $('.header-wrap').sticky ({
+    topSpacing: 0,
+    zIndex: 4,
+  });
+
+  $("p:empty").remove();
+
+   $(".meks-instagram-widget a").removeAttr("title");
+
+  // Unova Navigation Hover Script
+  $('.has-dropdown').on ({
+    mouseenter : function() {
+      $(this).find('ul.dropdown-nav').first().stop(true, true).slideDown(300);
+    },
+    mouseleave : function() {
+      $(this).find('ul.dropdown-nav').first().stop(true, true).slideUp(300);
+    }
+  });
+
+  $('.solution-item').on ({
+    mouseenter : function() {
+      $(this).find('.solution-info-wrap').first().stop(true, true).slideDown(300);
+    },
+    mouseleave : function() {
+      $(this).find('.solution-info-wrap').first().stop(true, true).slideUp(300);
+    }
+  });
+
+  $('li.has-dropdown ul.dropdown-nav li.has-dropdown').addClass('sub');
+
+  if($('.dropdown-nav > li').hasClass('active')) {
+    $(this).closest('li ul.dropdown-nav').closest('ul li.has-dropdown').addClass('active');
+  }
+
+  // Unova Add Remove Classes Script
+  $(".unva-fixed-navigation .has-dropdown a.dropdown-toggle").attr("href", "javascript:void(0);");
+  $(".unva-fixed-navigation .has-dropdown.sub > a").attr("href", "javascript:void(0);");
+  $('.toggle-link').on('click', function() {
+    $('.unva-fixed-navigation').addClass('open');
+  });
+  $('.close-btn a').on('click', function() {
+    $('.unva-fixed-navigation').removeClass('open');
+    $('.toggle-link').removeClass('active');
+  });
+
+  // Unova Search Box Script
+  $('html').on('click', function() {
+    $('.search-link .unva-search-box').fadeOut(200);
+  });
+  $('.search-link').on('click', function(e) {
+    e.stopPropagation();
+    $('.search-link .unva-search-box').find('input[type="text"]').focus();
+  });
+  $('.search-link a').on('click', function() {
+    $('.search-link .unva-search-box').fadeToggle(200);
+  });
+
+  // Unova Window Resize Script
+  $(window).resize(function() {
+    jQuery('.unva-windowheight').height(jQuery(window).height());
+    $('.unva-slide-cpation').css('padding-top', $('.transparent-header .unva-header').height());
+    if (screen.width >= 1200) {
+      $('.sticky-footer .main-wrap-inner').css('margin-bottom', $('.unva-footer').outerHeight());
+    }
+    if (screen.width >= 768) {
+      $('.unva-parallax').jarallax ({
+        speed: 0.6,
+      })
+    }
+  });
+  $(window).trigger('resize');
+
+  // Unova Browser Detect Script
+  if (navigator.userAgent.search('Safari') >= 0) {
+    $('html').addClass('safari')
+  }
+
+  // Unova Custom Select Script
+  $('select').niceSelect();
+
+  // Unova Tab Content Middle Align
+  $( '.tab-content [class*="vc_col-"] .vc_column-inner' ).addClass('unva-table-wrap');
+  $( '.tab-content [class*="vc_col-"] .wpb_wrapper' ).addClass('unva-align-wrap');
+
+  $(window).load(function() {
+    // Unova Set Equal Height Script
+    $('.unva-item, li.product, .tab-content [class*="vc_col-"]').matchHeight ({
+      property: 'height'
+    });
+    $('.unva-items-wrap').each(function() {
+      $(this).children('.unva-row-item').matchHeight ({
+        byRow: byRow
+      });
+    });
+    var byRow;
+    $.each($.fn.matchHeight._groups, function() {
+      this.options.byRow = byRow;
+    });
+
+    // Unova Masonry Script
+    var $grid = $('.unva-masonry, .products').isotope ({
+      itemSelector: '.masonry-item, li.product',
+      layoutMode: 'packery',
+    });
+    var filterFns = {
+      ium: function() {
+        var name = $(this).find('.name').text();
+        return name.match( /ium$/ );
+      }
+    };
+    $('.masonry-filters').on( 'click', 'li a', function() {
+      var filterValue = $( this ).attr('data-filter');
+      filterValue = filterFns[ filterValue ] || filterValue;
+      $grid.isotope({
+        filter: filterValue
+      });
+    });
+    $('.masonry-filters').each( function( i, buttonGroup ) {
+      var $buttonGroup = $( buttonGroup );
+      $buttonGroup.on( 'click', 'li a', function() {
+        $buttonGroup.find('.active').removeClass('active');
+        $(this).addClass('active');
+      });
+    });
+
+    // Unova Hover Script
+    $('.portfolio-item, .mate-item, .plan-item, .process-item, .blog-item, .about-item, .offer-item, .zoom-effect .masonry-item, li.product').on ({
+      mouseenter : function() {
+        $(this).addClass('unva-hover');
+      },
+      mouseleave : function() {
+        $(this).removeClass('unva-hover');
+      }
+    });
+
+    // Unova Swiper Slider Script
+    var animEndEv = 'webkitAnimationEnd animationend';
+    var swipermw = $('.swiper-container.mousewheel').length ? true : false;
+    var swiperkb = $('.swiper-container.keyboard').length ? true : false;
+    var swipercentered = $('.swiper-container.center').length ? true : false;
+    var swiperautoplay = $('.swiper-container').data('autoplay');
+    var swiperinterval = $('.swiper-container').data('interval'),
+    swiperinterval = swiperinterval ? swiperinterval : 7000;
+    swiperautoplay = swiperautoplay ? swiperinterval : false;
+
+    // Unova Swiper Fadeslides Script
+    var autoplay = 5000;
+    var swiper = new Swiper('.fadeslides', {
+      autoplayDisableOnInteraction: false,
+      effect: 'fade',
+      speed: 800,
+      loop: true,
+      paginationClickable: true,
+      watchSlidesProgress: true,
+      autoplay: autoplay,
+      simulateTouch: false,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      pagination: '.swiper-pagination',
+      mousewheelControl: swipermw,
+      keyboardControl: swiperkb,
+      onSlideChangeStart: function(s) {
+        var currentSlide = $(s.slides[s.activeIndex]);
+        var elems = currentSlide.find('.animated')
+        elems.each(function() {
+          var $this = $(this);
+          var animationType = $this.data('animation');
+          $this.addClass(animationType, 100).on(animEndEv, function() {
+            $this.removeClass(animationType);
+          });
+        });
+      },
+      onSlideChangeEnd: function(s) {
+        var currentSlide = $(s.slides[s.activeIndex]);
+      }
+    });
+
+    // Unova Flex Slider Script
+    var $window = $(window),
+        flexslider;
+    function getGridSize() {
+      return (window.innerWidth < 600) ? 1 :
+             (window.innerWidth < 1199) ? 1 : 2;
+    }
+    $('.thumb-slider').flexslider ({
+      animation: 'slide',
+      controlNav: false,
+      directionNav: false,
+      animationLoop: false,
+      slideshow: false,
+      itemWidth: 260,
+      itemMargin: 40,
+      minItems: getGridSize(),
+      maxItems: getGridSize(),
+      asNavFor: '.main-slider',
+    });
+    $('.main-slider').flexslider ({
+      animation: 'slide',
+      controlNav: false,
+      animationLoop: false,
+      slideshow: false,
+      sync: '.thumb-slider',
+    });
+
+    // Unova Owl Carousel Slider Script
+    $('.owl-carousel').each( function() {
+      var $carousel = $(this);
+      var $items = ($carousel.data('items') !== undefined) ? $carousel.data('items') : 1;
+      var $items_tablet = ($carousel.data('items-tablet') !== undefined) ? $carousel.data('items-tablet') : 1;
+      var $items_mobile_landscape = ($carousel.data('items-mobile-landscape') !== undefined) ? $carousel.data('items-mobile-landscape') : 1;
+      var $items_mobile_portrait = ($carousel.data('items-mobile-portrait') !== undefined) ? $carousel.data('items-mobile-portrait') : 1;
+      $carousel.owlCarousel ({
+        loop : ($carousel.data('loop') !== undefined) ? $carousel.data('loop') : false,
+        items : $carousel.data('items'),
+        margin : ($carousel.data('margin') !== undefined) ? $carousel.data('margin') : 0,
+        dots : ($carousel.data('dots') !== undefined) ? $carousel.data('dots') : true,
+        nav : ($carousel.data('nav') !== undefined) ? $carousel.data('nav') : false,
+        navText : ["<div class='slider-no-current'><span class='current-no'></span><span class='total-no'></span></div><span class='current-monials'></span>", "<div class='slider-no-next'></div><span class='next-monials'></span>"],
+        autoplay : ($carousel.data('autoplay') !== undefined) ? $carousel.data('autoplay') : false,
+        autoplayTimeout : ($carousel.data('autoplay-timeout') !== undefined) ? $carousel.data('autoplay-timeout') : 5000,
+        animateIn : ($carousel.data('animatein') !== undefined) ? $carousel.data('animatein') : false,
+        animateOut : ($carousel.data('animateout') !== undefined) ? $carousel.data('animateout') : false,
+        mouseDrag : ($carousel.data('mouse-drag') !== undefined) ? $carousel.data('mouse-drag') : false,
+        autoWidth : ($carousel.data('auto-width') !== undefined) ? $carousel.data('auto-width') : false,
+        autoHeight : ($carousel.data('auto-height') !== undefined) ? $carousel.data('auto-height') : false,
+        center : ($carousel.data('center') !== undefined) ? $carousel.data('center') : false,
+        responsiveClass: true,
+        dotsEachNumber: true,
+        responsive : {
+          0 : {
+            items : $items_mobile_portrait,
+          },
+          480 : {
+            items : $items_mobile_landscape,
+          },
+          768 : {
+            items : $items_tablet,
+          },
+          1024 : {
+            items : $items,
+          }
+        }
+      });
+      var totLength = $('.owl-dot', $carousel).length;
+      $('.total-no', $carousel).html(totLength);
+      $('.current-no', $carousel).html(totLength);
+      $carousel.owlCarousel();
+      $('.current-no', $carousel).html(1);
+      $carousel.on('changed.owl.carousel', function(event) {
+        var total_items = event.page.count;
+        var currentNum = event.page.index + 1;
+        $('.total-no', $carousel ).html(total_items);
+        $('.current-no', $carousel).html(currentNum);
+      });
+    });
+
+  });
+
+  // Accordion Active Only One At a Time.
+  $('.collapse-others').each(function() {
+    var $this = $(this);
+    $('.collapse', $this).on('show.bs.collapse', function (e) {
+      var all = $this.find('.collapse');
+      var actives = $this.find('.collapsing, .collapse.in');
+      all.each(function (index, element) {
+        $(element).collapse('hide');
+      })
+      actives.each(function (index, element) {
+        $(element).collapse('show');
+      })
+    });
+  });
+
+  // Unova Hover Animtion Script
+  $('.direction-hover .portfolio-item, .direction-hover .mate-item').hoverdir ({
+    hoverElem: '.portfolio-info, .unva-social',
+    inverse: true,
+    speed: 350,
+  });
+
+  // Unova Onclick Toggle Script
+  $('.like-product').on('click', function() {
+    $(this).toggleClass('active')
+  });
+
+  $('.product-color ul li').on('click', function(){
+    $(this).addClass('active').siblings().removeClass('active');
+  });
+
+  // Unova Counter Script
+  $('.unva-counter').counterUp ({
+    delay: 1,
+    time: 1000
+  });
+
+  // Unova Magnific Popup Script
+  $('.unva-popup').magnificPopup ({
+    delegate: 'a',
+    type: 'image',
+    closeOnContentClick: false,
+    closeBtnInside: false,
+    mainClass: 'mfp-with-zoom mfp-img-mobile',
+    closeMarkup:'<div class="mfp-close" title="%title%"></div>',
+    image: {
+      verticalFit: true,
+      titleSrc: function(item) {
+        return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">image source</a>';
+      }
+    },
+    gallery: {
+      enabled: true,
+      arrowMarkup:'<div title="%title%" class="mfp-arrow mfp-arrow-%dir%"></div>',
+    },
+    zoom: {
+      enabled: true,
+      duration: 300, // don't foget to change the duration also in CSS
+      opener: function(element) {
+        return element.find('*');
+      }
+    }
+  });
+
+  // Unova Magnific Popup Video Script
+  $('.unva-popup-video').magnificPopup ({
+    mainClass: 'mfp-fade',
+    type: 'iframe',
+    closeMarkup:'<div class="mfp-close" title="%title%"></div>',
+    iframe: {
+      patterns: {
+        youtube: {
+          index: 'youtube.com/',
+          id: function(url) {
+            var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
+            if ( !m || !m[1] ) return null;
+            return m[1];
+          },
+          src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+        },
+        vimeo: {
+          index: 'vimeo.com/',
+          id: function(url) {
+            var m = url.match(/(https?:\/\/)?(www.)?(player.)?vimeo.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/);
+            if ( !m || !m[5] ) return null;
+            return m[5];
+          },
+          src: 'https://player.vimeo.com/video/%id%?autoplay=1'
+        }
+      }
+    }
+  });
+
+  // Unova Progress Bar Script
+  $('.progress-item, .circle-progressbar').waypoint(function() {
+    $('.progress').each(function() {
+      var $this = $(this);
+      $('.progress-bar', $this).animate ({
+        width:$('.progress-bar', $this).attr('data-percent')
+      },1400);
+    });
+    $('.circle-progressbar').circleProgress ({
+      size: 159,
+      fill: {
+        color: '#6b74e6'
+      },
+      thickness: 4,
+      emptyFill: '#fafafa',
+      startAngle: 300,
+      reverse: true,
+      lineCap: 'squre',
+      animation: {
+        duration: 1800
+      }
+    })
+    .on('circle-animation-progress', function (event, progress, stepValue) {
+      $(this).find('.counter-number').text((stepValue * 100).toFixed(0));
+    });
+  },
+  {
+    offset: '100%'
+  });
+
+  // Unova Responsive Tabs Script
+  $('.woocommerce-tabs').responsiveTabs ({
+    collapsible: false,
+    animation: 'fade',
+    duration: 0,
+    active: 0,
+  });
+
+  $('a.add_to_cart_button').addClass('fa fa-shopping-bag');
+
+  // Unova Checkbox Script
+  $('input.input-checkbox').on('change', function() {
+    $('input.input-checkbox').not(this).prop('checked', false);
+  });
+  $('.payment-method').on('change', function() {
+    $('.payment-method').not(this).prop('checked', false);
+    $(this).parents('.wc_payment_method').toggleClass('current_payment_method').siblings().removeClass('current_payment_method');
+  });
+
+if ( $('div').hasClass("unva-rating") ) {
+  // Unova Rating Script
+  $('.unva-rating').rateYo ({
+    starWidth: '14px',
+    spacing: '2px',
+    ratedFill: '#6b74e6',
+    normalFill  : '#dadada',
+    zIndex: 1,
+    rating : 3,
+    "starSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>"+
+    "<path d='M12 6.76l1.379 4.246h4.465l-3.612 2.625 1.379"+
+    " 4.246-3.611-2.625-3.612 2.625"+
+    " 1.379-4.246-3.612-2.625h4.465l1.38-4.246zm0-6.472l-2.833"+
+    " 8.718h-9.167l7.416 5.389-2.833 8.718 7.417-5.388"+
+    " 7.416 5.388-2.833-8.718"+
+    " 7.417-5.389h-9.167l-2.833-8.718z'/>"+
+    "</svg>"
+  });
+}
+
+  // Unova Scroll Animation Script
+  AOS.init();
+
+  // Unova Parallax Scroll Script
+  $('.unva-parallax-arrow a').on('click', function(event) {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    )
+    {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').animate ({
+          scrollTop: target.offset().top
+        },1500,function() {
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(':focus')) {
+            return false;
+          }
+          else {
+            $target.attr('tabindex','-1');
+            $target.focus();
+          };
+        });
+      }
+    }
+  });
+
+  // Unova Floating Sidebar Script
+  $(window).scroll(function() {
+    var $window = jQuery(window),
+    $flotingbar = jQuery('.unva-floating-sidebar'),
+    offset = jQuery('.unva-mid-wrap').offset(),
+    $scrolling = jQuery('.unva-primary').height(),
+    $offsetHeight = jQuery('.unva-primary').offset(),
+    $topHeight = 0;
+    if (jQuery('.unva-floating-sidebar').length > 0) {
+      if ($window.width() > 991) {
+        if (($window.scrollTop() + $topHeight) > offset.top) {
+          if ($window.scrollTop() + $topHeight + $flotingbar.height() + 50 < $offsetHeight.top + $scrolling) {
+            $flotingbar.stop().animate ({
+              marginTop: ($window.scrollTop() - offset.top) + $topHeight + 26,
+            });
+          }
+          else {
+            $flotingbar.stop().animate ({
+              marginTop: ($scrolling - $flotingbar.height() - 80) + 26,
+            });
+          }
+        }
+        else {
+          $flotingbar.stop().animate ({
+            marginTop: 0,
+          });
+        }
+      }
+      else {
+        $flotingbar.css('margin-top', 0);
+      }
+    }
+  });
+
+  // Unova Loader Script
+  $('body').jpreLoader ({
+    preMainSection: '.unva-preloader',
+    prePerText: '.preloader-percentage-text',
+    preBar: '.preloader-bar',
+  });
+
+  // Unova Back Top Script
+  var backtop = $('.unva-back-top');
+  $(window).scroll(function() {
+    var windowposition = $(window).scrollTop();
+    if(windowposition + $(window).height() == $(document).height()) {
+      backtop.removeClass('active');
+    }
+    else if (windowposition > 150) {
+      backtop.addClass('active');
+    }
+    else {
+      backtop.removeClass('active');
+    }
+  });
+  jQuery('.unva-back-top a').on('click', function() {
+    jQuery('body,html').animate ({
+      scrollTop: 0
+    }, 2000);
+    return false;
+  });
+
+});

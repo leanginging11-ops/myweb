@@ -1,0 +1,94 @@
+@media
+only screen and (max-width: 800px),
+(min-device-width: 320px) and (max-device-width: 800px)  {
+  .filter-container .panel{
+      padding: 0 0 10px 0 !important;
+  }
+  .filter-container .panel .four{
+      padding-left: 3%;
+  }
+  #profiles_wrapper, .dataTables_scrollHead, .dataTables_scrollBody {
+    width: 97vw !important;
+  }
+
+}
+
+@media
+only screen and (max-width: 640px){
+	.vertical-list-mobile li a .fa-stack{
+		font-size: 22px !important;
+	}
+}
+
+@media
+only screen and (max-width: 480px),
+(min-device-width: 320px) and (max-device-width: 480px)  {
+	.pos-absolute{
+		position: relative !important;
+	}
+	.col-1{
+		width: 50%;
+	}
+	.col-2{
+		width: 50%;
+	}
+	.col-3{
+		width: 100%;
+	}
+	.col-4{
+		width: 100%;
+	}
+	.col-5{
+		width: 100%;
+	}
+	.col-6{
+		width: 100%;
+	}
+	.col-7{
+		width: 100%;
+	}
+	.col-8{
+		width: 100%;
+	}
+	.col-9{
+		width: 100%;
+	}
+	.col-10{
+		width: 100%;
+	}
+	.col-11{
+		width: 100%;
+	}
+	.col-12{
+		width: 100%;
+	}
+	.col-13{
+		width: 100%;
+	}
+	.col-14{
+		width: 100%;
+	}
+	.col-15{
+		width: 100%;
+	}
+	.col-16{
+		width: 100%;
+	}
+	.col-17{
+		width: 100%;
+	}
+	.col-18{
+		width: 100%;
+	}
+	.col-19{
+		width: 100%;
+	}
+	.col-20{
+		width: 100%;
+		clear: both;
+	}
+	.w-100R {
+		width: 100% !important; 
+		margin-left: 0 !important;
+	}
+}

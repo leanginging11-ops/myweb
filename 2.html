@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        .card1 a:hover {
+            padding-left: 40px;
+        }
+        .card1 img{
+            width:100%;
+            height:400px;
+        }
+        img {
+            width: 230px;
+            height: 65px;
+        }
+
+        .carousel-inner img {
+            width: 40rem;
+            height: 35rem;
+        }
+
+        .col .card img {
+          
+            height: 300px;
+        }
+
+        .row-cols-1 row-cols-md-2 g-4col {
+            margin-top: 50px;
+        }
+        .new{
+           color:navy;
+           padding-left: 60PX;
+          
+        }
+        .col .card{
+            width:37rem;
+            height:auto;
+            margin-left: 50px;;
+        }
+         
+        .navbar-brand{
+            padding-left: 100px;
+            margin-left: 50px;
+        }
+        .button{
+            background-color: lightseagreen;
+           color:navy;
+        }
+        .cardd img a:hover {
+            width:100%;
+            height:400px;
+            padding-top: 60px;
+        }
+        .card2 img{
+             width:95%;
+            height:340px;
+        }
+        .hono{
+            color: navy;
+            text-align: center;
+        }
+        .como img{
+            display: flex;
+            justify-content: space-between;
+            margin-right: 70px;
+        }
+        .como{
+            display: flex;
+            width:50px;
+            padding-left: 450px;
+           
+        }
+        /* --- Footer Container Styling --- */
+footer {
+    background-color: #0d2c6c; /* Matches the dark blue color from the image */
+    color: #ffffff;
+    padding: 40px 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* --- Left Column: Logo & Contact Info --- */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+    margin-right: 12px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.khmer-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.english-text {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.footer-section p {
+    margin: 8px 0;
+    color: #e0e6ed;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* --- Center Column: Menu --- */
+.footer-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 12px;
+}
+
+.footer-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+/* Custom indicator arrow matching the image layout */
+.footer-menu a::before {
+    content: ">";
+    font-size: 11px;
+    margin-right: 8px;
+    color: #a0aec0;
+}
+
+.footer-menu a:hover {
+    transform: translateX(4px);
+    color: #cbd5e1;
+}
+
+/* --- Right Column: Social & Copyright --- */
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff;
+    color: #0d2c6c; /* Icon color contrasts with white background circle */
+    border-radius: 50%;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.social-icon:hover {
+    opacity: 0.9;
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-light btn btn-secondary">
+        <div class="container-fluid">
+            <img src="cyn.png" alt="">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Get Involved</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Unit
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Youth Organizing</a></li>
+                            <li><a class="dropdown-item" href="#"> Empowerment Unit
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Research and Advocacy Unit</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contact Us</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- slide show -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="cyn1.jpg" class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="cyn2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="cyn3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="cyn4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="cyn5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="cyn6.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h1 class="new" >New Updates</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="https://cyncambodia.org/wp-content/uploads/2025/12/038A4256-1024x683.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Program"Youth Camp on career Orientation"</h2>
+                    <p class="card-text">On November 29 to December 1, 2025, the Cambodian Youth Network Association and Orida organised a “Youth Camp on Career Orientation” Program with a total of 25 participants, 13 women and 1 LGBTQ+ at the Vkirirom International School of Kampong Speu province.</p>
+                    <button class="button">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://cyncambodia.org/wp-content/uploads/2025/11/2025-11-02-21.18.57-1024x768.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Theme:Youth in Business Way Camp</h2>
+                    <p class="card-text">rom October 17 to 19, 2025, the Cambodian Youth Network Association (CYN) led a group to participated camp theme: "Youth in Business Way Camp".This event was a collaboration between CYN and OREDA, hosting a total of 11 participants, including 7 women and one monk from by CYN. And total all participated as 84 participants, included 42 women   the camp was held at the Trapaeng Sangkae Fishing Community in Kampong Kaes Village. </p>
+                    <button class="button">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://cyncambodia.org/wp-content/uploads/2025/10/566220893_1222591439912309_8194100876294917180_n-1024x768.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Empowering Youth At Asean people's Forum 2025</h2>
+                    <p class="card-text">Empowering Youth at ASEAN People's Forum 2025! Cambodia Youth Network Association (CYN) is pleased to share our successful engagement at the ASEAN Civil Society Conference/ ASEAN People’s Forum (ACSC/APF) 2025 in Kuala Lumpur, Malaysia, from October 13 to 16, 2025!
+We actively supported the forum’s mission to amplify grassroots voices and strengthen cross-border solidarity.</p>
+<button class="button">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://cyncambodia.org/wp-content/uploads/2025/09/547255309_1193409516163835_6013687187638229621_n-1024x683.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Sharing Session on :"Enviromental Right and climate change</h2>
+                    <p class="card-text">Sharing Session on: “Environmental Rights and Climate Change”
+Siem Reap Province, September 8th, 2025 – The Cambodian Youth Network Association (CYN), in collaboration with Domdek High School in Soutr Nikom District, organized a sharing session on “Environmental Rights and Climate Change.”
+The event was attended by a total of 23 participants, including 16 women. and awareness on the following topics
+.</p>
+<button class="button">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="new">Statement</h1>
+    <hr>
+    <div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card1">
+      <div class="card-body">
+        <img src="https://cyncambodia.org/wp-content/uploads/2024/07/449362156_792073203124078_2359211283667543345_n-1024x773.jpg" alt="">
+        <h2 class="card-title">Join Statement Conviction of Mother Nature Activists is a nationa shame</h2>
+        <p class="card-text">The Phnom Penh Capital Court’s conviction and sentencing of 10 Mother Nature activists to 6-8 years in prison, and the arrest of five of them on 2 July 2024, is a shame for our nation. Silencing environmental defenders and characterising their peaceful advocacy as a threat to the state is a mockery of justice.
+
+..</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="cardd">
+      <div class="card-body">
+        <img src="https://cyncambodia.org/wp-content/uploads/2020/08/Free-Rong-Chhun-625x648px.jpg" alt="">
+       
+    </div>
+  </div>
+</div>
+<h1 class="new">Block</h1>
+<hr>
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card2">
+      <div class="card-body">
+       <img src="https://cyncambodia.org/wp-content/uploads/2020/08/Areng-Camp-2018-1024x405.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card2">
+      <div class="card-body">
+        <img src="https://cyncambodia.org/wp-content/uploads/2020/12/42713161_1846519018736187_4836255242561519616_n.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<h1 class="hono">Our Honors</h1>
+<div class="como">
+    <img src="https://cyncambodia.org/wp-content/uploads/2024/03/Untitled-design-2-190x190.png" alt="">
+    <img src="https://cyncambodia.org/wp-content/uploads/2020/05/TERRE-Solidaire-250x169.jpg" alt="">
+    <img src="https://cyncambodia.org/wp-content/uploads/2020/05/Brot-250x169.jpg" alt="">
+    <img src="https://cyncambodia.org/wp-content/uploads/2020/05/American-Jewish-World-Service-250x169.jpg" alt="">
+</div>
+<footer>
+    <footer>
+    <div class="footer-container">
+        
+        <div class="footer-section contact-info">
+            <div class="footer-logo">
+                <img src="cyn.png" alt="Cambodian Youth Network Association Logo">
+                <div class="logo-text">
+                    <span class="khmer-text">សមាគមបណ្តាញយុវជនកម្ពុជា</span>
+                    <span class="english-text">CAMBODIAN YOUTH NETWORK ASSOCIATION</span>
+                </div>
+            </div>
+            
+            <p class="address">
+                <strong>Address:</strong> #35, Street 1013, Phum Phnom Penh Thmei, Sangkat Phnom Penh Thmei, Khan Sen Sok, Phnom Penh, Cambodia.
+            </p>
+            <p class="phone">
+                <strong>Tel:</strong> +855 (0) 12 858 642
+            </p>
+            <p class="email">
+                <strong>Email Address:</strong> <a href="mailto:info@cyncambodia.org">info@cyncambodia.org</a>
+            </p>
+            <p class="email">
+                <a href="mailto:president@cyncambodia.org">president@cyncambodia.org</a>
+            </p>
+        </div>
+
+        <div class="footer-section footer-menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Media&Publication</a></li>
+                <li><a href="#">CYN in News</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section social-copyright">
+            <h3>Social Media</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            
+            <p class="copyright">
+                Copyright © 2009-2023 Cambodian Youth Network All Right Reserve.
+            </p>
+        </div>
+
+    </div>
+</footer>
+</footer>
+</body>
+
+</html>

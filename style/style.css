@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    padding:15px;
+}
+img{
+   width: 250px;
+   height:250px ;
+}td{
+    text-align: center;
+}
+table{
+    width:70%;
+}
+.button{
+    background-color: yellow;
+    margin:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2{
+    color: red;
+}
+.tr1{
+background-color: black;
+color:white;
+}
+.tr2{
+    background-color: grey;
+}
+.tr3{
+    background-color: black;
+color:white;
+}
+.tr4{
+     background-color: grey;
+}

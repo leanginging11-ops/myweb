@@ -1,0 +1,17 @@
+table{
+    height:40%;
+}
+.one{
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+.sev button{
+    margin-left:40%;
+}
+button hover{
+    cursor: pointer;
+}
+.two input{
+   outline-color:navy;
+}

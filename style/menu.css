@@ -1,0 +1,206 @@
+.container {
+    background-color: white;
+    /* ប្រើសម្រាប់រំកិលអក្សរទៅខាងស្ដាំ */
+    display: flex;
+    /* ប្រើសម្រាប់រំកិល ojectទាំងមកកណ្ដាល */
+    align-items: center;
+    /* ប្រើសម្រាប់ដាក់គម្លាត់logoនិងអក្សរអោយឆ្ងាយពីរគ្នា */
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 0px 8px 0px black;
+    margin-left: 100px;
+}
+
+/* meun */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    position: relative;
+}
+.menu .submenu{
+    position: absolute;
+    display: none;
+}
+.menu .submenu:hover{
+    display: block;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu li a i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: gray;
+}
+
+/* banner */
+.banner img {
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.logo img {
+    width: 85px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    border: none;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.header .card {
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+}
+
+.banner img {
+    width: 100%;
+    margin-left: 20px;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.category {
+    margin-top: 10px;
+    gap: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+
+
+}
+
+.category .card:hover {
+    border: solid 1px blue;
+}
+
+
+.category .card {
+    margin: 10px;
+    padding-top: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 170px;
+    width: 195px;
+    text-align: center;
+    font-size: smaller;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    align-items: center;
+
+}
+
+.category .card img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.product {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.product .card {
+    width: 20%;
+    height:400px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 20px;
+
+
+}
+
+.product .card img {
+    width: 170px;
+    height: 160px;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+/*screen for responsive for mobile*/
+@media screen and (max-width:768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        width: 94%;
+        background-color: white;
+        z-index: 1;
+        flex-direction: column;
+
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+}
+
+.button {
+    cursor: pointer;
+    width: 100px;
+    margin-left: 110px;
+    background-color: navy;
+    color: white;
+}
+
+.product .icon {
+    color: yellow;
+
+}
+
+.price {
+    color: red;
+}
+
+.heart-shopping {
+    right: 20px;
+ 
+    position: absolute;
+    color: red;
+
+}
