@@ -64,3 +64,71 @@ margin-left: 40px;
    height:320px;
    margin-left: 390px;
 }
+.last-campus img{
+    width:44%;
+    height:320px;
+}
+    /* founder */
+
+.founderr img{
+   width:200px;
+    padding-left: 110px;
+    height:270px;
+    
+    
+   
+  
+}
+.founderr{
+    
+     display: flex;
+     gap:50px;
+     justify-content:center;
+}
+.our-founder{
+    text-align: center;
+    color: navy;
+  
+}
+.in .ceo{
+    padding-left:110px;
+     font-weight: bold;
+}
+.president{
+     padding-left:130px;
+     font-weight: bold;
+}
+.partners-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fcfcfc; 
+    font-family: Arial, sans-serif;
+}
+
+
+.partners-title {
+    color: #b5944b; 
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+.partners-subtitle {
+    color: #222222;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.logo-card{
+      display: flex;
+  right:1px;
+   width:50px;
+   
+}
+.logo-card img{
+    width:100px;
+    height:100px;
+    
+    margin-right: 70px;
+    display: flex;
+}
