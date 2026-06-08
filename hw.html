@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let name = prompt("what is your name");
+        let gender = prompt("what is your gender");
+        let math = parseInt(prompt("Enter your math score"));
+        let english = parseInt(prompt("Enter your english score"));
+        let science = parseInt(prompt("Enter your science score"));
+        let history = parseInt(prompt("Enter your history score"));
+        let sum = math + english + science + history;
+        let average = sum / 4;
+
+
+        document.write("my name is:" + name +"<br>");
+        document.write("my is gender is:" + gender +"<br>");
+        document.write("my math score is:" + math +"<br>");
+        document.write("my science score is:" + science +"<br>");
+        document.write("my history score is:" + history +"<br>");
+        document.write("my total score is:" + sum +"<br>");
+        document.write("my average is:" + average+"<br>");
+
+        if(average>=50)
+{
+    document.write("you are passing your exam");
+}
+else{
+    document.write("your are failing your exam");
+}
+    </script>
+</body>
+
+</html>

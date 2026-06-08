@@ -2,6 +2,7 @@
     font-family:'Times New Roman', Times, serif;
     text-align:start;
     padding-left: 80px;
+    font-weight: bold;
     
 
 }
@@ -12,6 +13,7 @@
 }
 .sec{
     padding-left: 80px;
+    font-weight: bold;
 }
 
 .third{
@@ -21,16 +23,13 @@
 }
 .container{
     display: flex;
-    
     justify-content: space-between;
-    
-    
 }
-.container img{
+/* container img or card img is the same */
+.container img{ 
     width:300px;
     padding-left: 80px;
     height:400px;
-
 }
 .core{
     text-align: center;
@@ -106,7 +105,7 @@ margin-left: 40px;
 }
 
 
-.partners-title {
+/* .partners-title {
     color: #b5944b; 
     font-size: 26px;
     font-weight: bold;
@@ -131,4 +130,4 @@ margin-left: 40px;
     
     margin-right: 70px;
     display: flex;
-}
+} */
